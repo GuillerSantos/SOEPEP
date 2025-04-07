@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Projects\\SOEPEP\\SOEPEP\\SOEPEP\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\SOEPEP.bundle.scp.css",
+      "PackagePath": "staticwebassets\\SOEPEP.m2xqtgdcni.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Projects\\SOEPEP\\SOEPEP\\SOEPEP\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Projects\\SOEPEP\\SOEPEP\\SOEPEP\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Projects\\SOEPEP\\SOEPEP\\SOEPEP\\wwwroot\\tailwind.css",
+      "PackagePath": "staticwebassets\\tailwind.css"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.SOEPEP.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.SOEPEP.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.SOEPEP.props",
+      "PackagePath": "build\\SOEPEP.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.SOEPEP.props",
+      "PackagePath": "buildMultiTargeting\\SOEPEP.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.SOEPEP.props",
+      "PackagePath": "buildTransitive\\SOEPEP.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

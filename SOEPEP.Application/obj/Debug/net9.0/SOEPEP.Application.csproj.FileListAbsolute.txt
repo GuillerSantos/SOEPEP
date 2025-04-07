@@ -1,0 +1,12 @@
+C:\Projects\SOEPEP\SOEPEP.Application\bin\Debug\net9.0\SOEPEP.Application.deps.json
+C:\Projects\SOEPEP\SOEPEP.Application\bin\Debug\net9.0\SOEPEP.Application.dll
+C:\Projects\SOEPEP\SOEPEP.Application\bin\Debug\net9.0\SOEPEP.Application.pdb
+C:\Projects\SOEPEP\SOEPEP.Application\obj\Debug\net9.0\SOEPEP.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\SOEPEP\SOEPEP.Application\obj\Debug\net9.0\SOEPEP.Application.AssemblyInfoInputs.cache
+C:\Projects\SOEPEP\SOEPEP.Application\obj\Debug\net9.0\SOEPEP.Application.AssemblyInfo.cs
+C:\Projects\SOEPEP\SOEPEP.Application\obj\Debug\net9.0\SOEPEP.Application.csproj.CoreCompileInputs.cache
+C:\Projects\SOEPEP\SOEPEP.Application\obj\Debug\net9.0\SOEPEP.Application.sourcelink.json
+C:\Projects\SOEPEP\SOEPEP.Application\obj\Debug\net9.0\SOEPEP.Application.dll
+C:\Projects\SOEPEP\SOEPEP.Application\obj\Debug\net9.0\refint\SOEPEP.Application.dll
+C:\Projects\SOEPEP\SOEPEP.Application\obj\Debug\net9.0\SOEPEP.Application.pdb
+C:\Projects\SOEPEP\SOEPEP.Application\obj\Debug\net9.0\ref\SOEPEP.Application.dll

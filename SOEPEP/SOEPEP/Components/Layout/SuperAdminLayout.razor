@@ -1,0 +1,84 @@
+﻿@inherits LayoutComponentBase
+@attribute [Authorize(Roles = "SuperAdmin")]
+
+
+<MudThemeProvider />
+<MudPopoverProvider />
+<MudDialogProvider />
+<MudSnackbarProvider />
+
+<div class="flex flex-col min-h-screen">
+    <MudAppBar Color="Color.Primary" Class="d-flex flex-wrap" Style="height: 80px" Elevation="4">
+
+        <MudIconButton Color="Color.Inherit" Size="Size.Large"
+                       Class="d-flex mt-4 text-white"
+                       Icon="@Icons.Material.Filled.Menu"
+                       OnClick="ToggleDrawer" />
+
+        <!-- Logos -->
+        <div class="d-flex gap-3 mt-4 align-items-center">
+            <MudImage Height="40" Width="40" Class="rounded-full" Src="images/DHVSULOGO.png"></MudImage>
+            <MudImage Height="40" Width="40" Class="rounded-full" Src="images/DPCLOGO.jpg"></MudImage>
+            <MudImage Height="40" Width="40" Class="rounded-full" Src="images/DPCSCLOGO.jpg"></MudImage>
+        </div>
+
+        <!-- Title -->
+        <MudContainer Class="ml-20 mt-4 d-none d-md-block">
+            <MudText Typo="Typo.h6" Class="gold-text decoration-black font-bold mx-3">
+                Student Organizations Election Platform
+            </MudText>
+        </MudContainer>
+
+        <MudSpacer />
+        <!-- Navigation Buttons (Hidden on small screens) -->
+        <MudContainer Class="d-none d-md-flex mt-4 gap-2">
+            <MudButton Class="nav-button" Href="/superadmindashboard">Dashboard</MudButton>
+            <MudButton Class="nav-button" Href="/addcandidates">Candidate Generator</MudButton>
+            <MudButton Class="nav-button" Href="/superadminannouncement">Announcement</MudButton>
+        </MudContainer>
+
+        <MudSpacer />
+
+    </MudAppBar>
+
+    <!-- Sidebar Navigation Visible on small screens -->
+    <MudDrawer Width="290px"
+               @bind-Open="_drawerOpen"
+               Variant="DrawerVariant.Responsive"
+               Class="mobile-drawer" Elevation="4">
+
+        <MudList T="string" Class="drawer-list">
+            <MudButton Href="/superadmindashboard" Class="drawer-item">Dashboard</MudButton>
+            <MudButton Href="/addcandidates" Class="drawer-item">Candidates</MudButton>
+            <MudButton Href="/superadminannouncement" Class="drawer-item">Announcement</MudButton>
+            <MudButton Href="/activitylog" Class="drawer-item">Activity Logs</MudButton>
+            <MudButton Class="drawer-item">Logout</MudButton>
+
+        </MudList>
+    </MudDrawer>
+
+    <div class="flex-1 overflow-auto pt-20 mt-20">
+        @Body
+    </div>
+
+    <footer class="bg-gray-900 text-white text-center py-4 mt-auto hidden sm:block">
+        <p>&copy; @DateTime.Now.Year Student Organizations Election Platform</p>
+    </footer>
+</div>
+
+<div id="blazor-error-ui" data-nosnippet>
+    An unhandled error has occurred.
+    <a href="." class="reload">Reload</a>
+    <span class="dismiss">🗙</span>
+</div>
+
+@code {
+    [Inject] public NavigationManager navigationManager { get; set; } = default!;
+
+    private bool _drawerOpen;
+
+    private void ToggleDrawer()
+    {
+        _drawerOpen = !_drawerOpen;
+    }
+}

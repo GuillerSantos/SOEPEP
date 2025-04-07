@@ -1,0 +1,4 @@
+C:\Projects\SOEPEP\SOEPEP\SOEPEP.Client\wwwroot\appsettings.json
+C:\Projects\SOEPEP\SOEPEP\SOEPEP.Client\wwwroot\appsettings.Development.json
+wwwroot\appsettings.Development.json
+wwwroot\appsettings.json

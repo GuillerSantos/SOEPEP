@@ -1,0 +1,5 @@
+C:\Projects\SOEPEP\SOEPEP\SOEPEP\wwwroot\tailwind.css
+C:\Projects\SOEPEP\SOEPEP\SOEPEP\wwwroot\app.css
+wwwroot\app.css
+wwwroot\favicon.png
+wwwroot\tailwind.css
